@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.all {
+   flex-grow: 1;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background: #213B7E;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: calc(50% - 1268px/2);
+    padding-right: calc(50% - 1268px/2);
+    color: white;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+}
+.menu_link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: white;
+    padding: 28px 18px;
+    display: block;
+
+}
+.menu_link_active {
+    color: #213B7E;
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 54px;
+    
+}
+
+.button{
+    height: 50px;
+    width: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EA5D21;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+}
+.color {
+   color:  #CF5510;
+}
+.content {
+    padding-left: calc(50% - 911px/2);
+    padding-right: calc(50% - 911px/2);
+    max-width: 911px;
+    margin: 0 auto;
+
+}
+.content_info {
+    display: flex;
+    justify-content: space-between;
+    width: 911px;
+    height: 720px;
+    margin: 0 auto;
+}
+.content_text {
+    width: 634px;
+    height: 127px;
+    font-style: normal;
+    justify-content:left;
+    flex-direction: row;
+}
+.about_text {
+    text-align: left;
+    left: 264px;
+    top: 543px;
+    width: 70%;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    }
+
+.content_section {
+    width: 634px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    max-width: 129px;
+}
+
+.heading {
+    display: flex;
+    position: relative;
+    width: 129px;
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #646464;
+}
+.quotation-marks {
+    font-size: 64px;
+}
+.quotation-marks_left {
+ position: absolute;
+   left: -33px;
+   top: 7px;
+}
+.quotation-marks_right {
+    position: absolute;
+    top: 36px;
+    right: -22px;
+}
+.footer {
+    background-color: #213B7E;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+    margin-top: 32px;
+}
+.footer_text {
+    color: rgba(255, 255, 255, 0.5);
+}
+/*students*/
+.subtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    align-items: center;
+    color: #000000;
+    margin-top: 37px;
+}
+.content_students {
+    padding-left: calc(50% - 1202px/ 2);
+    padding-right: calc(50% - 1202px/ 2);
+}
+.students {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.student {
+    width: 200px;
+   position: relative; 
+}
+.student_new {
+    position: absolute;
+    top: -12px;
+    right: -13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #3AA828;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 1px 2px 1px 5px;
+}
+.student_name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    text-align: center;
+    margin-top: 8px;
+    }
+
+    /*about*/
+
+    .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 33px;
+    margin-bottom: 25px;
+    padding-top: 33px;
+    padding-bottom: 25px;
+    }
+    .about {
+        margin-bottom: 15px;
+        font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    }
+    .video {
+        width: 820px;
+    height: 549.33px;
+    left: 286px;
+    top: 217px;
+    background: url(video.png);
+    border: 2px solid #EA5D21;
+
+    }
+
+    /*contacts*/
+
+    .title_contacts {
+        font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+margin-top: 33px;
+margin-bottom: 25px;
+    }
+    .map {
+        margin-bottom: 15px;
+
+    }
+    .adress {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+    }
+    .adress_img {
+        font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    display: flex;
+    }
+
+    @media(min-width:350px) and (max-width:800px) {
+        .header {
+            padding-left: 0px;
+            padding-right: 16px;
+        }
+        .logo{
+            display: none;
+        }
+        .menu {
+         
+            flex-direction: column;
+           padding-bottom: 16px;
+            padding-top: 16px;
+        }
+        .menu_link {
+            margin-left: 0;
+            font-size: 18px;
+            padding: 20px 14px;
+        }
+        .content{
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+        .content_info{
+           flex-wrap: wrap;
+           gap: 32px;
+          padding-left: 32px;
+          width: 650px;
+          text-align: center;
+           
+        }
+        .content_section{
+            padding-left: 32px;
+            padding-right: 16px;
+            width: 90px;
+        }
+        .content_article{
+            text-align: center;
+        }
+        /*students*/
+ .content_students {
+    padding-left:calc(50% - 736px/2);
+    padding-right: calc(50% - -736px/2);
+   
+ }       
+.students{
+    justify-content: center;
+    padding-left: 175px;
+}
+.title{
+    padding: 50%;
+}
+    }
